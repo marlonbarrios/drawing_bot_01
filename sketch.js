@@ -1,7 +1,7 @@
 let colorPicker;
 
 let settings = {
-  res: 0.01,
+  res: 0.004,
   alpha: 128,
   nFrames: 80,
   dots: true,
@@ -131,6 +131,6 @@ if(settings.lines) {
   function keyPressed() {
     // Save frame if letter 'p' is pressed
     if (keyCode === 80) {
-      save(`gridofshapes.png`);
+      save(`botdrawing.png`);
     }
   }
